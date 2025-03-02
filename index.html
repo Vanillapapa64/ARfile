@@ -11,7 +11,7 @@
     <a-scene embedded arjs="debugUIEnabled: false; detectionMode: mono_and_matrix;">
         <a-marker preset="hiro">
             <a-text value="Marker Detected" position="-1 0 0"></a-text>
-            <a-box position="0 0.5 0" material="color: red;"></a-box>
+            <a-entity gltf-model="url(https://cdn.aframe.io/test-models/models/duck/duck.gltf)" position="0 0 0" scale="0.5 0.5 0.5"></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
